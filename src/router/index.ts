@@ -1,15 +1,18 @@
+// src/router/index.ts
+
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-
+import Start from "../components/Start.vue"
 const routes: Array<RouteRecordRaw> = [
-  // {
-  //   path: '/login',
-  //   component: Login
-  // },
+  {
+    path: '/',
+    name: 'Start',
+    component: Start,
+  },
+];
 
-]
 const router = createRouter({
+  history: createWebHistory(),
   routes,
-  // 路由模式
-  history: createWebHistory()
-})
+});
+
 export default router;
