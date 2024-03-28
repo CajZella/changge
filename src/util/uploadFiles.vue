@@ -6,20 +6,20 @@
     multiple
     :accept="accept"
     :auto-upload="false"
-    :limit='50'
+    :limit='30'
     :file-list="submitFiles"
     :on-exceed="handleExceed"
     :on-remove="handleRemove"
     :on-change="handleChange"
     :before-upload="handleBeforeUpload"
   >
-    <icon-upload-one theme="outline" size="50" fill="grey"/>
+    <icon-upload-one theme="outline" size="30" fill="grey"/>
     <div class="el-upload__text">
       Drop file here or <em>click to upload</em>
     </div>
     <template #tip>
       <div class="el-upload__tip">
-        支持{{accept}}格式文件；文件大小不超过{{fileSize}}M；不超过50个文件
+        支持{{accept}}格式文件；文件大小不超过{{fileSize}}M；不超过30个文件
       </div>
     </template>
   </el-upload>

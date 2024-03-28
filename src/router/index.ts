@@ -14,9 +14,9 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/conversation.vue')
       },
       {
-        path: '/docLib',
-        name: 'docLib',
-        component: () => import('@/views/docLib.vue')
+        path: '/knowledgeBase',
+        name: 'knowledgeBase',
+        component: () => import('@/views/knowledgeBase.vue')
       },
       {
         path: '/agent',

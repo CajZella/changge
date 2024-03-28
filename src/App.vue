@@ -7,5 +7,5 @@
 </template>
 
 <style scoped>
-
+@import url("font/font.css");
 </style>
